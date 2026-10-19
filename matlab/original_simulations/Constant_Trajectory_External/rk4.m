@@ -1,0 +1,11 @@
+function x=rk4(name,t0,x0,h)
+t1=t0+h/2; 
+t2=t0+h;
+f0=feval(name,t0,x0); 
+x1=x0+h*f0/2;
+f1=feval(name,t1,x1); 
+x2=x0+h*f1/2;
+f2=feval(name,t1,x2); 
+x3=x0+h*f2;
+f3=feval(name,t2,x3);
+x=x0+h*(f0+2*f1+2*f2+f3)/6;
