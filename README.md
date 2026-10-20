@@ -8,7 +8,7 @@ Code and data for the paper
 The controller combines feedback linearization of the Quanser QArm dynamics with
 gradient-based online adaptation of two feedback gains $k_1$, $k_2$ and a lumped
 disturbance estimate $\hat{d}$. All three are driven by the learning signal
-$c = \dot{e}_2 + k_{2d} \times e_2 + k_{1d} \times e_1$, which measures the mismatch from a target error dynamics.
+$c = \dot{e}\_2 + k\_2d \times e\_2 + k\_{1d} \times e\_1$, which measures the mismatch from a target error dynamics.
 The repository covers the full 4-DOF simulations and the wrist-joint hardware experiments.
 
 ## Contents
