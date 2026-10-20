@@ -6,9 +6,9 @@ Code and data for the paper
 > 4-DOF Robot Manipulator*, Robotics (MDPI), under review (manuscript robotics-4620744, revision 1).
 
 The controller combines feedback linearization of the Quanser QArm dynamics with
-gradient-based online adaptation of two feedback gains `$k_1$`, `k2` and a lumped
-disturbance estimate `dhat`. All three are driven by the learning signal
-`c = e2_dot + k2d*e2 + k1d*e1`, which measures the mismatch from a target error dynamics.
+gradient-based online adaptation of two feedback gains $k_1$, $k_2$ and a lumped
+disturbance estimate $\hat{d}$. All three are driven by the learning signal
+$c = e2_dot + k2d*e2 + k1d*e1$, which measures the mismatch from a target error dynamics.
 The repository covers the full 4-DOF simulations and the wrist-joint hardware experiments.
 
 ## Contents
