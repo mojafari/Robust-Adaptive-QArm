@@ -80,4 +80,4 @@ starting, and the "Wrist" axis labels are spelled correctly).
 
 ## License
 
-MIT (see `LICENSE`). Quanser software and documentation are the property of Quanser Inc.
+MIT (see [LICENSE](LICENSE.md)). Quanser software and documentation are the property of Quanser Inc.
